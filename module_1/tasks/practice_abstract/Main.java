@@ -1,4 +1,4 @@
-package module_1.block_1.OOP.tasks.practice_abstract;
+package module_1.tasks.practice_abstract;
 
 public class Main {
     static void processPayment(Payment payment, double amount) {

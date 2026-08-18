@@ -1,4 +1,4 @@
-package module_1.block_1.OOP.tasks.practice_extends;
+package module_1.tasks.practice_extends;
 
 public class Animal {
     String name; 

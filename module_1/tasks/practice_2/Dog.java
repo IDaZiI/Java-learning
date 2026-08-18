@@ -1,4 +1,4 @@
-package module_1.block_1.OOP.tasks.practice_2;
+package module_1.tasks.practice_2;
 
 public class Dog {
     String name;

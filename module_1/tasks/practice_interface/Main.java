@@ -1,4 +1,4 @@
-package module_1.block_1.OOP.tasks.practice_interface;
+package module_1.tasks.practice_interface;
 
 public class Main {
     static void notifyUser(NotificationSender sender, String message) {

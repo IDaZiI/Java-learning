@@ -1,4 +1,4 @@
-package module_1.block_1.OOP.tasks.practice_abstract;
+package module_1.tasks.practice_abstract;
 
 class CashPayment extends Payment {
 

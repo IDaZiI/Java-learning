@@ -1,3 +1,5 @@
+package module_1.tasks.practice_encapsulation;
+
 public class BankAccount {
 
     private double balance;
