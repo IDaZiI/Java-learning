@@ -248,3 +248,32 @@ Box<Integer> → Box<Number> // ✗
 Generic-типы в Java **инвариантны**.
 
 Для таких случаев используются `? extends` и `? super`.
+
+## 11. Diamond operator
+
+```java
+Box<String> box = new Box<>("Hello");
+```
+
+<> позволяет Java самостоятельно определить параметр типа. Т.е. можно не писать `new Box<String>`
+
+## 12. Type Erasure (Стирание типов)
+
+Generics в основном проверяются во время компиляции.
+
+После компиляции информация о конкретных параметрах типов стирается.
+
+Поэтому нельзя:
+
+```java
+new T();           // ❌
+value instanceof T // ❌
+```
+
+Но можно использовать T как тип:
+
+```java
+List<T>
+T get()
+void set(T value)
+```
