@@ -57,5 +57,13 @@ public class Main {
         users.add(new User("Alice"));
         users.add(new User("Bob"));
         System.out.println(users.get(1).getName());
+        System.out.println(users.size());
+
+        Repository <String> stringRep = new Repository<>();
+        stringRep.add("Hello");
+        stringRep.add("World");
+        stringRep.add("!");
+        System.out.println(stringRep.get(1));
+        System.out.println(stringRep.size());
     }
 }
